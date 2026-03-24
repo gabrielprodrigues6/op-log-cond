@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿//exemplo1.Executar();
+//atividade1.Executar();
+//atividade2.Executar();
+//atividade3.Executar();
+//atividade4.Executar();
+//atividade5.Executar();
+//atividade6.Executar();
+//atividade7.Executar();
+//atividade8.Executar();
+//atividade9.Executar();
+//atividade10.Executar();
