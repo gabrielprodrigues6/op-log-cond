@@ -13,7 +13,7 @@ public static class atividade2
         Console.WriteLine("Digite a letra");
         string letra = Console.ReadLine()!.ToLower();
 
-        if (letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u")
+        if ((letra == "a") || (letra == "e") || (letra == "i") || (letra == "o") || (letra == "u"))
         {
             Console.WriteLine("A letra é uma vogal");
         }
