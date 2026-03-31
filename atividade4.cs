@@ -28,15 +28,15 @@ public static class atividade4
         n2 = double.Parse(Console.ReadLine()!);
 
         Console.WriteLine();
-        
-        media = (n1 + n2)/2;
 
-        if((media <= 10) && (media >=8.5))
+        media = (n1 + n2) / 2;
+
+        if ((media <= 10) && (media >= 8.5))
 
         {
             Console.WriteLine("A nota é A");
         }
-        else if ((media <= 8.5) && (media >= 7))
+        else if ((media <= 8.5) && (media > 7))
         {
             Console.WriteLine("A nota é B");
         }
@@ -44,7 +44,7 @@ public static class atividade4
         {
             Console.WriteLine("A nota é C");
         }
-        else if((media >= 3) && (media < 5))
+        else if ((media >= 3) && (media < 5))
         {
             Console.WriteLine("A nota é D");
         }
@@ -52,6 +52,6 @@ public static class atividade4
         {
             Console.WriteLine("A nota é E");
         }
-    
-            }
+
+    }
 }
