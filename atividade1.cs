@@ -3,7 +3,7 @@
 
 public static class atividade1
 {
-        public static void Executar()
+    public static void Executar()
     {
         double volume;
         double PI = 3.14159;
@@ -21,10 +21,9 @@ public static class atividade1
         Console.WriteLine("Digite o valor do volume");
         volume = double.Parse(Console.ReadLine()!);
 
-    volume = PI * (Raio * Raio) * Altura;
-Console.WriteLine("O valor de volume é");
-Console.WriteLine(volume);
+        volume = PI * (Raio * Raio) * Altura;
+        Console.WriteLine($"O volume da lata é: {volume}");
+        Console.WriteLine(volume);
     }
 }
 
-   

@@ -2,7 +2,7 @@ using System.Runtime.CompilerServices;
 
 public static class exemplo1
 {
-    
+
     public static void Executar()
     {
         double nota;
@@ -16,7 +16,7 @@ public static class exemplo1
         Console.WriteLine("Digite a frequência do aluno: ");
         frequencia = double.Parse(Console.ReadLine()!);
 
-        if (nota >=7)
+        if (nota >= 7)
         {
             if (frequencia >= 75)
             {
@@ -24,7 +24,7 @@ public static class exemplo1
             }
             else
             {
-            Console.WriteLine("Aluno reprovado por frequência.");
+                Console.WriteLine("Aluno reprovado por frequência.");
             }
         }
     }
