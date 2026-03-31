@@ -1,0 +1,43 @@
+public static class atividade3outrojeito
+{
+    public static void Executar()
+    {
+        int numeroUm;
+        int numeroDois;
+        int numeroTres;
+        int auxiliar;
+
+        Console.Write("Digite o primeiro número: ");
+        numeroUm = int.Parse(Console.ReadLine()!);
+
+        Console.Write("Digite o segundo número: ");
+        numeroDois = int.Parse(Console.ReadLine()!);
+
+        Console.Write("Digite o terceiro número: ");
+        numeroTres = int.Parse(Console.ReadLine()!);
+
+        if (numeroUm > numeroDois)
+        {
+            auxiliar = numeroUm;
+            numeroUm = numeroDois;
+            numeroDois = auxiliar;
+        }
+
+        if (numeroUm > numeroTres)
+        {
+            auxiliar = numeroUm;
+            numeroUm = numeroTres;
+            numeroTres = auxiliar;
+        }
+
+        if (numeroDois > numeroTres)
+        {
+            auxiliar = numeroDois;
+            numeroDois = numeroTres;
+            numeroTres = auxiliar;
+        }
+
+        Console.WriteLine($"Ordem crescente : {numeroUm}, {numeroDois} e {numeroTres}");
+
+    }
+}
